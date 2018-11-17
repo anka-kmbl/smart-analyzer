@@ -1,0 +1,12 @@
+{
+  "name": "smart-xml-analyzer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./smart_analyzer.js"
+  },
+  "dependencies": {
+    "jsdom": "^13.0.0",
+    "winston": "^3.1.0"
+  }
+}
