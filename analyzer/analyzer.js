@@ -113,7 +113,7 @@ class Analyzer {
         for (let str of sample) {
             if (search.includes(str)) {
                 count += 1;
-            } // think about onclick;
+            }
         }
         const score = Math.round((count / search.length) * 100) / 100;
         if (score) {
